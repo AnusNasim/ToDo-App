@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="main">
+
+
+        <div class="nav">
+           <div> <i class="fa fa-check-square-o" aria-hidden="true"></i></div>
+          <div style="margin-left: 15px;"> <nav>ToDo App</nav></div>
+            </div>
+
+
+
+
+<div style="color: black;font-weight: bolder;display: flex;flex-direction: row;flex-wrap: wrap;margin-left: 100px;margin-top: 20px; "> <h1>Add Task...</h1></div>
+
+ <div class="main2">
+
+
+    
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Task...." aria-label="Recipient's username with two button addons" aria-describedby="button-addon4" id="todo-item">
+    <div class="input-group-append" id="button-addon4">
+      <button class="btn btn-outline-secondary" type="button" style="background-color:	#4169E1; font-weight: bold;color: white;" onclick="adtodo()">Add</button>
+      <button class="btn btn-outline-secondary" type="button" style="background-color: royalblue; font-weight: bold; color: white;" onclick="deleteall()">Delete All</button>
+    </div>
+  </div>
+
+  
+ </div>
+   
+
+
+ <div>
+
+<ul id="list">
+
+</ul>
+
+
+ </div>
+
+
+    </div>
+
+
+    
+
+</body>
+
+<script src="app.js"></script>
+</html>
